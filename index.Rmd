@@ -94,8 +94,8 @@ leaflet() %>%
   ) %>%
   addLegend(
     position = "bottomright",
-    pal=pal_bosque_bripario_d_PC,
-    values = sf_bosque_bripario$d_PC, 
+    pal=pal_bosque_bripario_IF,
+    values = sf_bosque_bripario$IF_, 
     group = "Parches importantes",
     title = "Importancia"
   ) %>%    
@@ -118,4 +118,8 @@ leaflet() %>%
 ```
 
 ***
-[Dirección del geoservicio](https://services9.arcgis.com/RrvMEynxDB8hycVO/arcgis/rest/services/gam_parches_esenciales_importantes_bosque_bripario/FeatureServer/0)
+**Direcciones de los geoservicios**
+
+[Parches esenciales](https://services9.arcgis.com/RrvMEynxDB8hycVO/arcgis/rest/services/gam_parches_esenciales_importantes_bosque_bripario/FeatureServer/0)  
+
+[Parches importantes](https://services9.arcgis.com/RrvMEynxDB8hycVO/arcgis/rest/services/gam_parches_esenciales_importantes_bosque_bripario/FeatureServer/0)
